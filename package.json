@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack-dev-server --mode development --open",
     "format": "prettier --write \"src/**/*.js\"",
-    "eslint-fix": "eslint --fix \"src/**/*.js\""
+    "eslint-fix": "eslint --fix \"src/**/*.js\"",
+    "create": "webpack"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +28,7 @@
     "eslint-config-react": "^1.1.7",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-react": "^7.20.0",
+    "html-webpack-plugin": "^4.3.0",
     "less": "^3.11.1",
     "less-loader": "^6.1.0",
     "prettier": "2.0.5",
